@@ -1,0 +1,17 @@
+Process to create a project
+=============================
+
+1. Create folder
+2. Create env --> python -m venv env
+3. cd env , Scripts\activate
+4. Then, pip install django
+5. cd..
+6. django-admin startproject example
+7. Create migrations ... python manage.py migrate
+8. python  manage.py createsuperuser
+9. Enter information...
+10. python manage.py runserver
+11. django-admin startapp panel ('panel')
+12. Go to settings and add in INSTALLED_APPS 'panel'
+13. Crate urls.py under the app created 'panel'
+14. Then check github
