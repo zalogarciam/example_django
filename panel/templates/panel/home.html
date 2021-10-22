@@ -1,5 +1,12 @@
 <div>
     <h1>
-        Hola
-    </h1>
+        Hola {{name}}
+    </h1>   
+        <ul>
+            {% for e in numbers %}
+            <li>    
+                {{e}}
+            </li>
+            {% endfor %}
+        </ul>
 </div>
